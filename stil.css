@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'MojFont';
+    src: url('mojfont.ttf') format('truetype');
+}
+
+body {
+    background-image: url("Moku Malihini on red Fabric _ Spoonflower.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.65);
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-family: 'MojFont', sans-serif;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+	
+}.slike-u-redu {
+    display: flex;
+    gap: 20px; /* razmak između slika */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.slike-u-redu img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.slike-u-redu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.slike-u-redu img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+.slike-u-redu img:hover {
+    transform: scale(1.05);
+}
